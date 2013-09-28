@@ -1,0 +1,17 @@
+{
+  "name": "eql",
+  "repo": "yields/eql",
+  "description": "eql utility.",
+  "version": "0.0.1",
+  "keywords": ["eql", "equals"],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": ["index.js"],
+  "dependencies": {
+    "component/type": "*"
+  },
+  "development": {
+    "visionmedia/mocha": "*",
+    "component/assert": "*"
+  }
+}
