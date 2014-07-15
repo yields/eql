@@ -4,6 +4,7 @@
  */
 
 var type = require('type');
+var k = require('keys');
 
 /**
  * Export `eql`
@@ -66,8 +67,8 @@ eql.object = function(a, b){
   if (a.prototype != b.prototype) return false;
 
   // keys
-  keys.a = Object.keys(a).sort();
-  keys.b = Object.keys(b).sort();
+  keys.a = k(a).sort();
+  keys.b = k(b).sort();
 
   // length
   if (keys.a.length != keys.b.length) return false;
