@@ -2,7 +2,7 @@
   "name": "eql",
   "repo": "yields/eql",
   "description": "eql utility.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": ["eql", "equals"],
   "license": "MIT",
   "main": "index.js",
